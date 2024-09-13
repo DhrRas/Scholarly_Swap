@@ -1,0 +1,11 @@
+<!-- accounts/templates/accounts/landing.html -->
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6 text-center mt-5">
+        <h1>Welcome to Scholarly Swap</h1>
+        <p>Please <a href="{% url 'signup' %}">sign up</a> or <a href="{% url 'login' %}">login</a> to get started.</p>
+    </div>
+</div>
+{% endblock %}
